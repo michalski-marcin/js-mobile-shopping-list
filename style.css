@@ -22,8 +22,12 @@
     border: 3px black solid;
     border-radius: 15px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
+}
+
+img {
+    margin: 30px;
 }
 
 input {
@@ -48,6 +52,11 @@ button {
     text-align: center;
     font-size: 20px;
     color: #FDFDFD;
-    background-color: #AC485A;
-   
+    background-color: #AC485A;  
+}
+
+#shopping-list {
+    width: 100%;
+    text-align: left;
+    padding: 20px 30px;
 }
